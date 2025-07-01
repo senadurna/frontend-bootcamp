@@ -1,0 +1,89 @@
+/* Genel gövde ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Başlık ve footer için arka plan ve yazı rengi */
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Menü liste düzeni */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Menü bağlantıları */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Ana içerik */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Blog gönderisi kartları */
+.posts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* Tekil blog kartı stili */
+article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+/* Blog görseli */
+article img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Başlık rengi */
+article h3 {
+  color: #333;
+}
+
+/* Paragraf metin rengi */
+article p {
+  color: #666;
+}
+
+/* Alt kısım */
+footer {
+  margin-top: 2rem;
+}
+
+
+.bonus {
+  background-color: #fffbe6;       
+  border-left: 6px solid #fdbb2d;  
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  font-style: italic;
+  color: #333;
+}
