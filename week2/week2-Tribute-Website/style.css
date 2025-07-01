@@ -1,0 +1,181 @@
+/* Tüm öğelerde kenar boşluklarını ve padding'i sıfırla, kutu modeli ayarla */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Temel yazı tipi, arka plan ve genel stil ayarları */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #e8c4a1;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigasyon menüsü */
+nav  {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #a72828; 
+}
+
+/* Navigasyon menüsünün stili */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #a72828; 
+  padding: 10px;
+}
+
+/* Navigasyon öğeleri arası boşluk */
+nav ul li {
+  margin-left: 20px;
+}
+
+/* Navigasyon bağlantıları */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Başlık bölümü (header) */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #e8c4a1; /* Bej/pembe arası renk */
+}
+
+/* Başlık yazısı */
+header h1 {
+  font-size: 40px;
+  color: #a72828;
+}
+
+/* Alıntı yazısı */
+header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Her bir ana bölüm için ortak ayarlar */
+section {
+  margin: 30px 0;
+  scroll-margin-top: 80px;
+}
+
+/* Başlıklar için renk ve alt çizgi */
+h2 {
+  color: #a72828;
+  border-bottom: 2px solid #a72828;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%; 
+}
+
+/* Liste elemanları */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Sayfanın alt kısmı */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a72828;
+}
+
+/* Bonus yazısı için stil */
+.bonus {
+  color: white;
+  font-size: 12px;
+}
+
+/* HERO bölümü: tam ekran genişliğinde, arka plan görseli olan giriş */
+.hero {
+  height: 80vh; /* Ekranın %80'i kadar yükseklik */
+  background-image: url('images/frida-1.webp'); /* Görseli kendi klasörüne koy */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Koyu overlay efekti (karartma) */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Yarı saydam siyah */
+  z-index: 1;
+}
+
+/* Görselin üstündeki yazılar */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+/* Başlık ve alıntı */
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* navbar-yumuşak geçiş */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Galeri kutularını ızgara (grid) düzeninde sıralar */
+.gallery-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px; 
+  margin-top: 20px; 
+}
+
+/* Her bir galeri öğesini ortala */
+.gallery-item {
+  text-align: center; 
+}
+
+/* Galerideki görsellere biçim ver */
+.gallery-item img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease; 
+}
+
+
+.gallery-item img:hover {
+  transform: scale(1.05); 
+}
+
+
+.gallery-item p {
+  margin-top: 10px; 
+  font-weight: bold; 
+}

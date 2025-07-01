@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+  <h1 id="title">Survey Form For CSS Practice</h1>
+  <p id="description">Please fill out this form to help us improve our services.</p>
+
+  <form id="survey-form">
+    
+    <!-- Full Name -->
+    <label id="name-label" for="name">Full Name</label>
+    <input id="name" type="text" placeholder="Enter your full name" required>
+    
+    <!-- Email -->
+    <label id="email-label" for="email">Email</label>
+    <input id="email" type="email" placeholder="Enter your email address" required>
+    
+    <!-- Age -->
+    <label id="number-label" for="number">Age</label>
+    <input id="number" type="number" placeholder="Enter your age" min="10" max="100" required>
+    
+    <!-- Gender Select -->
+    <label for="dropdown">Select Gender</label>
+    <select id="dropdown" required>
+      <option value="">--Select--</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+    </select>
+
+    <!-- Radio Buttons -->
+    <p>Where did you hear us?</p>
+    <label><input type="radio" name="source" value="instagram" required> Instagram</label><br>
+    <label><input type="radio" name="source" value="linkedin"> LinkedIn</label>
+
+    <!-- Checkboxes -->
+    <p>Options:</p>
+    <label><input type="checkbox" value="terms"> Terms of Service</label><br>
+    <label><input type="checkbox" value="subscribe"> Subscribe for News</label>
+
+    <!-- Suggestions Textarea -->
+    <label for="suggestions">Suggestions</label>
+    <textarea id="suggestions" placeholder="Your suggestions..." rows="4" cols="30"></textarea>
+
+    <!-- Submit Button -->
+    <input id="submit" type="submit" value="Sign Up">
+
+  </form>
+
+</body>
+</html>
