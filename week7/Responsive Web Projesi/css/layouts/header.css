@@ -1,0 +1,39 @@
+#header {
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .container {
+   font-family: serif;
+}
+
+#header .logo img {
+    display: block;
+}
+
+#navbar{
+    padding: 0;
+}
+
+#navbar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    position: relative;
+    padding: 6px 10px;
+}
+
+#navbar li a{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+</head>
+<body>
+    <!-- Koyu renkli navbar - Bootstrap bileşeni -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Blog Sitesi</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="post.html">Blog Gönderisi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- Jumbotron bileşeni -->
+<div class="jumbotron text-center">
+  <h1 class="display-4">Hoş Geldiniz!</h1>
+  <p class="lead">Bu blogda Photoshop ve Illustrator hakkında ipuçları ve teknikler bulabilirsiniz.</p>
+  <hr class="my-4">
+  <p>Yeni başlayanlar ve profesyoneller için pratik içerikler burada.</p>
+  <a class="btn btn-primary btn-lg" href="post.html" role="button">Blogları Gör</a>
+</div>
+
+
+<!-- Bloglar için grid yapısı içinde card bileşenleri -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+  <div class="row">
+    <!-- Kart 1 -->
+    <div class="col-md-4 offset-md-2 d-flex align-items-stretch">
+      <div class="card">
+        <img src="images/psd.jpg" class="card-img-top" alt="Photoshop">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Photoshop Kısayollarıyla Hız Kazanın</h5>
+          <p class="card-text">En çok kullanılan kısayollarla iş akışınızı hızlandırın...</p>
+          <a href="post.html" class="btn btn-primary mt-auto">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kart 2 -->
+    <div class="col-md-4 d-flex align-items-stretch">
+      <div class="card">
+        <img src="images/ai.jpg" class="card-img-top" alt="Illustrator">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Illustrator'da Vektörleri Ustaca Kullanma</h5>
+          <p class="card-text">Vektör çizimlerini profesyonelleştirmenizi sağlayacak teknikler burada...</p>
+          <a href="post.html" class="btn btn-primary mt-auto">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2024 Blog Sitesi - Tüm Hakları Saklıdır.</p>
+  </div>
+</footer>
+
+</body>
+</html>

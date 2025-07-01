@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Powerfull Fitness</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">POWERFULL</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#trainers">Trainers</a></li>
+      <li><a href="#bmi">BMI</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <!-- hero-man görseli burada kullanılacak -->
+    <div class="hero-content">
+        <span class="tag">POWERFULL</span>
+        <h1>Group Practice<br />With Trainer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odit aut iste. Velit porro rerum, unde modi ipsam exercitationem laudantium illum.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Sign Up</a>
+          <a href="#classes" class="btn-secondary">Details</a>
+        </div>
+      </div>
+  </section>
+
+  <!-- Stats Section -->
+<section class="stats-section">
+    <div class="stat-box">
+      <h3>325</h3>
+      <p>Course</p>
+    </div>
+    <div class="stat-box">
+      <h3>405</h3>
+      <p>Work Out</p>
+    </div>
+    <div class="stat-box">
+      <h3>305</h3>
+      <p>Working Hour</p>
+    </div>
+    <div class="stat-box">
+      <h3>705</h3>
+      <p>Happy Client</p>
+    </div>
+  </section>
+  
+
+  <!-- Our Classes -->
+  <section id="classes" class="section-light">
+    <h2 class="section-title">OUR CLASSES</h2>
+    <div class="section-desc">
+      Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College.
+    </div>
+  
+    <div class="class-buttons">
+      <button data-class="yoga" class="active">Yoga</button>
+      <button data-class="group">Group</button>
+      <button data-class="solo">Solo</button>
+      <button data-class="stretch">Stretching</button>
+    </div>
+  
+    <div class="class-container">
+      <div class="class-text">
+        <h3>Why are your Yoga?</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus voluptatum impedit odit
+          perferendis dolorum placeat, exercitationem in officia autem maiores obis natrum laboriosam sapiente
+          nulla totam neque eum veniam.
+        </p>
+  
+        <h3>When comes Yoga Your Time.</h3>
+        <ul>
+          <li>Saturday–Sunday: 8:00am – 10:00am</li>
+          <li>Monday–Tuesday: 10:00am – 12:00pm</li>
+          <li>Wednesday–Friday: 3:00pm – 6:00pm</li>
+        </ul>
+      </div>
+      <div class="class-image">
+        <img src="images/yoga.jpg" alt="Yoga Class" />
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- BMI Calculator -->
+  <section id="bmi">
+    <h2 class="section-title">BMI Calculator</h2>
+    
+    <div class="bmi-wrapper">
+      <!-- Sol metin + input alanı -->
+      <div class="bmi-left">
+        <div class="section-desc">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        </div>
+        <br />
+        <div class="section-desc">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        </div>
+  
+        <input type="number" id="height" placeholder="Your Height (cm)" />
+        <input type="number" id="weight" placeholder="Your Weight (kg)" />
+        <button id="calculate-btn">Calculate</button>
+        <div id="bmi-result">x</div>
+      </div>
+  
+      <!-- Sağ görsel -->
+      <div class="bmi-right">
+        <img src="images/bmi-index.jpg" alt="BMI Chart" />
+      </div>
+    </div>
+  </section>
+  
+    
+
+  <!-- Trainers -->
+  <section id="trainers">
+    <h2 class="section-title">Our Best Trainers</h2>
+    <div class="trainer-container">
+      <div class="trainer-box">
+        <!-- trainer1, trainer2, trainer3 burada olacak, hover efekt eklenecek -->
+        <img src="images/trainer1.jpg" alt="Trainer 1">
+        <div class="trainer-info">
+          <h4>Jane Smith</h4>
+          <p>Cardio Expert</p>
+        </div>
+      </div>
+      <div class="trainer-box">
+        <img src="images/trainer2.jpg" alt="Trainer 2">
+        <div class="trainer-info">
+          <h4>John Muscle</h4>
+          <p>Strength Coach</p>
+        </div>
+      </div>
+      <div class="trainer-box">
+        <img src="images/trainer3.jpg" alt="Trainer 3">
+        <div class="trainer-info">
+          <h4>Jane Doe</h4>
+          <p>Crossfit Trainer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Purchase From Us -->
+<section id="purchase">
+    <h2 class="section-title">Purchase From Us</h2>
+    <p>Lorem ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College.</p>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="images/purchase1.jpg" alt="Kettlebell 5kg">
+        <h3>Kettlebell | 5kg</h3>
+        <p>$89.00 | $59.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/purchase2.jpg" alt="Treadmill">
+        <h3>Treadmill</h3>
+        <p>$99.00 | $65.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/purchase3.jpg" alt="Adjustable Dumbbell">
+        <h3>Adjustable Dumbbell</h3>
+        <p>$169.00 | $95.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/purchase4.jpg" alt="Kettlebell 3kg">
+        <h3>Kettlebell | 3kg</h3>
+        <p>$69.00 | $45.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Review Client -->
+<section id="reviews">
+    <h2 class="section-title">REVIEW CLIENT</h2>
+    <p class="section-subtitle">Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College.</p>
+    
+    <div class="review-container">
+      <div class="review-card">
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit, sem at tempor.”</p>
+        <div class="client-info">
+          <img src="images/client1.jpg" alt="Client 1">
+          <div>
+            <strong>Diet Expert</strong>
+            <p>CFO</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="review-card">
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit, sem at tempor.”</p>
+        <div class="client-info">
+          <img src="images/client2.jpg" alt="Client 2">
+          <div>
+            <strong>Cardio Trainer</strong>
+            <p>CEO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Us -->
+<section id="contact">
+    <h2 class="section-title">CONTACT US</h2>
+    <p class="section-subtitle">Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College.</p>
+  
+    <div class="contact-container">
+      <div class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+  
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+  
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+  
+        <button type="submit">Send</button>
+      </div>
+  
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps?q=Yıldız+Teknik+Üniversitesi+Davutpaşa+Kampüsü&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Powerfull Logo" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatum, quod, quae, voluptas quia quibusdam voluptatibus quas
+          doloribus quidem fugiat.
+        </p>
+      </div>
+  
+      <div class="footer-links">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-links">
+        <h3>Helpful Links</h3>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Supports</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
