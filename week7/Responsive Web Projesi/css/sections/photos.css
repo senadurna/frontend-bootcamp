@@ -1,0 +1,7 @@
+#photos .photo img{
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 6px
+}
