@@ -12,6 +12,9 @@ Bu proje, günlük yapılacak işleri listelememizi sağlar. Görevler eklenebil
 - Boş görev eklenemez (**Toast** bildirim ile uyarı)  
 - Başarıyla eklenen görev için **Toast** bildirimi  
 - Bootstrap 4 ve CSS ile stil verilmiştir
+- Tarayıcı kapansa bile görevlerin korunması (localStorage)
+- Görevleri sıfırlayıp başa dönme (Varsayılana sıfırla butonu)
+
 
 ---
 
@@ -37,3 +40,8 @@ Bu proje, günlük yapılacak işleri listelememizi sağlar. Görevler eklenebil
 - Bootstrap 4 (Toast bileşeni için)
 
 ---
+
+## 🔄 Güncellemeler (Week 6)
+
+- **localStorage entegrasyonu** eklendi. Artık görevler tarayıcıda saklanır, sayfa yenilense bile kaybolmaz.
+- **Varsayılana sıfırlama butonu** eklendi. Bu buton ile tüm görevler silinir ve ilk tanımlı görevler tekrar yüklenir.
