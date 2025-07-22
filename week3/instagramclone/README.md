@@ -30,3 +30,8 @@ Bu proje, [Kodluyoruz Bootstrap Ödevi #2](https://github.com/Kodluyoruz/taskfor
 - [Bootstrap](https://getbootstrap.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Kodluyoruz GitHub](https://github.com/Kodluyoruz)
+
+
+## 🌐 Canlı Demo
+
+[🔗 Siteyi Görüntüle](https://senadurna.github.io/frontend-bootcamp/week3/instagramclone/)
