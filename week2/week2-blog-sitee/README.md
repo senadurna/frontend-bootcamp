@@ -50,7 +50,7 @@ grafik-blogu/
 
 Aşağıda blog sitesinin ekran görüntüsünü bulabilirsiniz:
 
-![Blog Sitesi Görseli](screenshot.png)
+![Blog Sitesi Görseli](images/screenshot.png)
 
 
 
