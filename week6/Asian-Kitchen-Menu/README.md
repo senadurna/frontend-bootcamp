@@ -24,7 +24,7 @@ Bu proje, JavaScript kullanılarak oluşturulmuş interaktif bir **Uzak Doğu re
 ![Uygulama Görseli](./ss.png)
 
 ## 📁 Dosya Yapısı
-.
+
 ├── index.html       
 ├── app.js           
 ├── style.css        
