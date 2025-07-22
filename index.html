@@ -1,142 +1,209 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Frontend Proje Galerisi</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f7fa;
-      color: #333;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frontend Bootcamp Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-    header {
-      background: linear-gradient(135deg, #4a90e2, #357abd);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-      font-size: 2rem;
-      font-weight: bold;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(to bottom, #f3e7f3, #f9f5ff);
+        color: #333;
+      }
 
-    .container {
-      max-width: 1100px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
+      .container {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
 
-    .section-title {
-      font-size: 1.4rem;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
-      color: #4a4a4a;
-      border-left: 5px solid #4a90e2;
-      padding-left: 0.75rem;
-    }
+      header {
+        background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        letter-spacing: 1px;
+        border-bottom: 4px solid white;
+      }
 
-    .project-list {
-      list-style: none;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1rem;
-      margin-bottom: 2rem;
-    }
+      .container {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
 
-    .project-card {
-      background-color: #fff;
-      border-radius: 8px;
-      padding: 1rem;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+      .section-title {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #6a11cb;
+        position: relative;
+        padding-left: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        font-family: "Poppins", sans-serif;
+      }
 
-    .project-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    }
+      .section-title::before {
+        content: "📁";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.3rem;
+        color: #9b59b6;
+      }
 
-    .project-card a {
-      text-decoration: none;
-      color: #357abd;
-      font-weight: 600;
-    }
+      .project-list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
 
-    .project-card a:hover {
-      text-decoration: underline;
-    }
+      .project-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1.2rem;
+        box-shadow: 0 2px 10px rgba(160, 120, 200, 0.1);
+        border-left: 6px solid #a18cd1;
+        transition: all 0.3s ease;
+      }
 
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #999;
-      margin-top: 3rem;
-      padding-bottom: 2rem;
-    }
-  </style>
-</head>
-<body>
+      .project-card:hover {
+        transform: scale(1.03);
+        background: linear-gradient(120deg, #fdfbfb, #ebedee);
+        box-shadow: 0 6px 16px rgba(160, 120, 200, 0.2);
+      }
 
-<header>
-  Frontend Proje Galerisi
-</header>
+      .project-card a {
+        text-decoration: none;
+        color: #6a11cb;
+        font-weight: 600;
+        font-size: 1.05rem;
+      }
 
-<div class="container">
+      .project-card a:hover {
+        text-decoration: underline;
+      }
 
-  <div class="section-title">Week 2</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week2/week2-Registration-Form/index.html">Registration Form</a></li>
-    <li class="project-card"><a href="week2/week2-Tribute-Website/index.html">Tribute Website</a></li>
-    <li class="project-card"><a href="week2/week2-blog-sitee/index.html">Blog Site</a></li>
-  </ul>
+      footer {
+        text-align: center;
+        font-size: 0.95rem;
+        color: #888;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+        font-family: "Poppins", sans-serif;
+      }
 
-  <div class="section-title">Week 3</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week3/instagramclone/index.html">Instagram Clone</a></li>
-    <li class="project-card"><a href="week3/Developing%20a%20Blog%20Website%20with%20Bootstrap/index.html">Blog Website (Bootstrap)</a></li>
-  </ul>
+      footer::before {
+        content: "💜 ";
+      }
+    </style>
+  </head>
+  <body>
+    <header>Frontend Proje Galerisi</header>
 
-  <div class="section-title">Week 4</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week4/TailwindCSS%20LandingPage/index.html">TailwindCSS Landing Page</a></li>
-    <li class="project-card"><a href="week4/TailwindCSS%20Review%20Page/index.html">TailwindCSS Review Page</a></li>
-  </ul>
+    <div class="container">
+      <div class="section-title">Week 2</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week2/week2-Registration-Form/index.html"
+            >Registration Form</a
+          >
+        </li>
+        <li class="project-card">
+          <a href="week2/week2-Tribute-Website/index.html">Tribute Website</a>
+        </li>
+        <li class="project-card">
+          <a href="week2/week2-blog-sitee/index.html">Blog Site</a>
+        </li>
+      </ul>
 
-  <div class="section-title">Week 5</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week5/Javascript%20Clock%20and%20Welcome/index.html">JS Clock & Welcome</a></li>
-    <li class="project-card"><a href="week5/Javascript%20Drum%20Kit/index.html">JS Drum Kit</a></li>
-  </ul>
+      <div class="section-title">Week 3</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week3/instagramclone/index.html">Instagram Clone</a>
+        </li>
+        <li class="project-card">
+          <a
+            href="week3/Developing%20a%20Blog%20Website%20with%20Bootstrap/index.html"
+            >Blog Website (Bootstrap)</a
+          >
+        </li>
+      </ul>
 
-  <div class="section-title">Week 6</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week6/Asian-Kitchen-Menu/index.html">Asian Kitchen Menu</a></li>
-    <li class="project-card"><a href="week6/To%20Do%20List%20with%20Javascript/index.html">To-Do List (JS)</a></li>
-  </ul>
+      <div class="section-title">Week 4</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week4/TailwindCSS%20LandingPage/index.html"
+            >TailwindCSS Landing Page</a
+          >
+        </li>
+        <li class="project-card">
+          <a href="week4/TailwindCSS%20Review%20Page/index.html"
+            >TailwindCSS Review Page</a
+          >
+        </li>
+      </ul>
 
-  <div class="section-title">Week 7</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week7/Responsive%20Web%20Projesi/index.html">Responsive Web Projesi</a></li>
-  </ul>
+      <div class="section-title">Week 5</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week5/Javascript%20Clock%20and%20Welcome/index.html"
+            >JS Clock & Welcome</a
+          >
+        </li>
+        <li class="project-card">
+          <a href="week5/Javascript%20Drum%20Kit/index.html">JS Drum Kit</a>
+        </li>
+      </ul>
 
-  <div class="section-title">Week 8</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week8/BitirmeProjesi/fitness-website/index.html">Fitness Website (Bitirme)</a></li>
-  </ul>
+      <div class="section-title">Week 6</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week6/Asian-Kitchen-Menu/index.html">Asian Kitchen Menu</a>
+        </li>
+        <li class="project-card">
+          <a href="week6/To%20Do%20List%20with%20Javascript/index.html"
+            >To-Do List (JS)</a
+          >
+        </li>
+      </ul>
 
-  <div class="section-title">Week 9</div>
-  <ul class="project-list">
-    <li class="project-card"><a href="week9/Dice-Game/index.html">Dice Game</a></li>
-  </ul>
+      <div class="section-title">Week 7</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week7/Responsive%20Web%20Projesi/index.html"
+            >Responsive Web Projesi</a
+          >
+        </li>
+      </ul>
 
-</div>
+      <div class="section-title">Week 8</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week8/BitirmeProjesi/fitness-website/index.html"
+            >Fitness Website (Bitirme)</a
+          >
+        </li>
+      </ul>
 
-<footer>
-  &copy; 2025 — Frontend Projeleri | Hazırlayan: Sena Durna Paşa ❤️
-</footer>
+      <div class="section-title">Week 9</div>
+      <ul class="project-list">
+        <li class="project-card">
+          <a href="week9/Dice-Game/index.html">Dice Game</a>
+        </li>
+      </ul>
+    </div>
 
-</body>
+    <footer>&copy; 2025 — Frontend Projeleri | Hazırlayan: Sena Durna</footer>
+  </body>
 </html>
