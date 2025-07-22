@@ -38,7 +38,20 @@ grafik-blogu/
 | Bonus Kutusu        | `#fffbe6`  |
 | Bonus Çizgi         | `#fdbb2d`  |
 
-## 🔖 Özel Bileşen: Bonus Kutusu
+
+
+## 🌐 Canlı Demo
+
+[🔗 Siteyi Görüntüle](https://senadurna.github.io/frontend-bootcamp/week2/week2-blog-sitee/)
+
+---
+
+## 🖼️ Ekran Görüntüsü
+
+Aşağıda blog sitesinin ekran görüntüsünü bulabilirsiniz:
+
+![Blog Sitesi Görseli](screenshot.png)
+
 
 
 
