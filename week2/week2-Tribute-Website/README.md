@@ -52,3 +52,16 @@ Bu proje, seçilen bir edebi figür veya sanatçıya saygı duruşu niteliğinde
 ## 👩‍🎨 Hakkında
 Bu web sitesi, Frida Kahlo'nun hayatına ve eserlerine ilgi duyan kullanıcılar için sade ve etkileyici bir sayfa deneyimi sunar. Aynı zamanda bir ödev çalışması olarak tasarlanmış ve bireysel olarak geliştirilmiştir.
 
+## 🌐 Canlı Demo
+
+[🔗 Siteyi Görüntüle](https://senadurna.github.io/frontend-bootcamp/week2/week2-Tribute-Website/)
+
+---
+
+## 🖼️ Ekran Görüntüsü
+
+Aşağıda Frida Kahlo tribute sitesinin ekran görüntüsünü görebilirsiniz:
+
+![Frida Kahlo Tribute Screenshot](images/screenshot.png)
+
+
