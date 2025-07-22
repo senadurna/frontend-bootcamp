@@ -48,5 +48,19 @@ This project includes the following elements:
 
 ---
 
+## 🌐 Live Demo
+
+[🔗 View the Live Form Here](https://senanurdurna.github.io/frontend-bootcamp/week2-Registration%20Form/)
+
+---
+
+## 🖼️ Screenshot
+
+Below is a preview of the final form:
+
+![Survey Form Screenshot](screenshot.png)
+
+
+
 
 
