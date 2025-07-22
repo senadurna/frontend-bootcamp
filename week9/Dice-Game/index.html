@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="result">Let's Play!</h1>
+
+  <div class="player-names">
+    <input type="text" id="player1NameInput" placeholder="Enter Player 1 Name">
+    <button onclick="updatePlayerName()">Update Name</button>
+  </div>
+
+  <div class="dice-container">
+    <div>
+      <p id="player1Name">Player 1</p>
+      <img id="dice1" src="images/dice1.png" alt="Player 1 Dice">
+    </div>
+    <div>
+      <p>Player 2</p>
+      <img id="dice2" src="images/dice1.png" alt="Player 2 Dice">
+    </div>
+  </div>
+
+  <button id="rollButton" onclick="rollDice()">Roll 🎲</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
