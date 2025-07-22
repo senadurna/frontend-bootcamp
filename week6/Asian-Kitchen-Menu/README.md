@@ -29,3 +29,9 @@ Bu proje, JavaScript kullanılarak oluşturulmuş interaktif bir **Uzak Doğu re
 ├── app.js           
 ├── style.css        
 └── ss.png           
+
+## 🔗 Live Demo
+
+[Click here to view the project on GitHub Pages](https://senadurna.github.io/frontend-bootcamp/week6/Asian-Kitchen-Menu/)
+
+
