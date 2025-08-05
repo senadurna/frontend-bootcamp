@@ -1,0 +1,90 @@
+.section-light {
+  background-color: #f6faff;
+  padding: 80px 20px;
+}
+
+.section-title {
+  color: #355592;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-desc {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 30px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.class-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #355592;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.class-buttons .active,
+.class-buttons button:hover {
+  background-color: #2a436e;
+}
+
+.class-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.class-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.class-text h3 {
+  color: #333;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+.class-text p {
+  font-size: 0.875rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.class-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.class-text li {
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+}
+
+.class-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.class-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}

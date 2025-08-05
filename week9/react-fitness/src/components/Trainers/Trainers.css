@@ -1,0 +1,51 @@
+.trainers-section {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.trainers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.trainer-card {
+  width: 250px;
+  background-color: #f2f8ff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-image {
+  position: relative;
+}
+
+.trainer-image img {
+  width: 100%;
+  display: block;
+}
+
+.trainer-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(53, 85, 146, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.trainer-image:hover .trainer-overlay {
+  opacity: 1;
+}
+
+.trainer-overlay a {
+  color: white;
+  font-size: 1.2rem;
+}
